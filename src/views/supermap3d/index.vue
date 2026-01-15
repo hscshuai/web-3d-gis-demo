@@ -5,7 +5,6 @@
 </template>
 
 <script setup>
-// Vue 3 空组件
 import { onMounted } from 'vue'
 
 defineOptions({

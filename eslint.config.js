@@ -16,7 +16,8 @@ export default defineConfig([
   {
     languageOptions: {
       globals: {
-        ...globals.browser,
+        ...globals.browser, // 👈 引入 浏览器 全局变量
+        ...globals.node, // 👈 引入 Node 全局变量
         Cesium: 'readonly',
         SuperMap3D: 'readonly',
         CESIUM_WORKERS: 'readonly',
